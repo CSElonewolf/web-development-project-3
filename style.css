@@ -1,0 +1,341 @@
+* {
+    padding: 0 px;
+    margin : 0 px;
+    font-family: sans-serif;
+}
+#header{
+    height:100vh;
+    background-image: url(images/background.png);
+    background-position: center;
+    background-size : cover;
+}
+.container{
+margin-right: 80px;
+margin-left: 80px;
+}
+.logo{
+    width: 100px;
+    margin-top: 30px;
+}
+.header-text{
+    margin-top: 100px;
+    width: 350px;
+}
+h1 {
+    font-size: 34px;
+}
+.square{
+    background-color: blueviolet;
+    width: 12px;
+    height:12px;
+    display: inline-block;
+    margin: 10px 0px;
+}
+.common-btn{
+    background: transparent;
+    outline: none;
+    border: 2px solid blueviolet;
+    cursor: pointer;
+    padding: 10px 10px;
+}
+p{
+    font-size:  15px;
+    line-height: 18px;
+}
+.header-text button{
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+.line-1{
+    background-color: blueviolet;
+    width: 12px;
+    height:12px;
+    display: inline-block;
+    margin: 5px 0px;
+}
+.line-2{
+    background-color: blueviolet;
+    width: 60px;
+    height:2px;
+    display: inline-block;
+}
+.line-3{
+    background-color: blueviolet;
+    width: 80px;
+    height:1px;
+    display: inline-block;
+}
+.line{
+    line-height: 10px;
+}
+#sideNav{
+    width: 350px;
+    height: 100vh;
+    background-color:#f67c92;
+    top:0;
+    right:-350px;
+    position: fixed;
+    z-index: 2;
+    opacity: .9;
+    transition: .5s ease-in;
+}
+nav ul li{
+    list-style: none;
+    margin : 50px 20px;
+}
+/* Extra designing that I gave to the nav bar */
+nav ul li a:hover {
+    border-bottom: 2px dotted white;
+    margin-left: 20px;
+    width: 80px;
+    transition: .3s ease-in;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+#menuBtn{
+    top: 35px;
+    right: 65px;
+    position: fixed;
+    width:50px;
+    z-index: 2;
+}
+#about{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 100px 0px;
+}
+.about-left-col{
+    flex-basis: 50%;
+}
+.about-left-col img{
+    width:100%;
+}
+.about-right-col{
+    flex-basis: 50%;
+    text-align: right;
+}
+.about-text{
+    margin-right: 60px;
+    max-width:350px;
+    display: inline-block;
+}
+.about-text h2{
+    margin: 50px 0 10px;
+    font-size: 20px;
+    font-style: italic;
+}
+.about-text h3{
+    color: #797979;
+    font-weight: 700;
+    font-style: italic;
+}
+#feature{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.feature-row{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+}
+.feature-col{
+    flex-basis:25%;
+    text-align: center;
+}
+.feature-col img{
+    width: 100px;
+}
+.feature-col h4{
+    padding: 10px 0;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+/* This is a very good concept of making a button appear at the center of the webpage */
+/* This portion was little bit of advanced standard */
+.feature-btn {
+   margin : 80px auto 0;
+   display: flex;
+   align-items: flex-end;
+   justify-content: center;
+}
+.feature-btn .line-left{
+    text-align: right;
+    display: inline-block;
+    margin-right: 25px;
+}
+.feature-btn .line-right{
+    text-align: left;
+    display: inline-block;
+    margin-left: 25px;
+}
+#course{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 100px 0px;
+}
+.course-left-col{
+    flex-basis: 50%;
+}
+.course-text{
+    margin-left: 60px;
+    max-width:350px;
+    display: inline-block;
+}
+.course-left-col .common-btn{
+    /* margin-left: 60px; */
+    margin-bottom: 30px;
+    margin-top:  30px;
+}
+.course-right-col{
+    flex-basis: 50%;
+}
+.course-right-col img{
+    width:100%;
+}
+
+#offer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 100px 0px;
+}
+.offer-left-col{
+    flex-basis: 50%;
+}
+.offer-left-col img{
+    width:100%;
+}
+.offer-right-col{
+    flex-basis: 50%;
+    text-align: right;
+}
+.offer-text{
+    margin-right: 60px;
+    max-width:350px;
+    display: inline-block;
+}
+.offer-right-col .common-btn{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+#contact{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 100px 0px;
+}
+.contact-left-col{
+    flex-basis: 50%;
+}
+.contact-text{
+    margin-left: 60px;
+    max-width:350px;
+    display: inline-block;
+}
+.contact-left-col .common-btn{
+    margin: 30px 0;
+    margin-right : 5px;
+    padding: 15px;
+    width: 150px;
+}
+.contact-left-col input{
+    text-decoration: none;
+    outline: none;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 80%;
+    border: 2px solid blueviolet;
+}
+.contact-right-col{
+    flex-basis: 50%;
+}
+.contact-right-col img{
+    width:100%;
+}
+.contact-left-col .common-btn:hover {
+    border-color: red;
+    transition: .5s;
+}
+.footer-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer-left-col{
+    flex-basis: 50%;
+    margin-top: 40px;
+}
+.footer-right-col{
+    flex-basis: 35%;
+}
+.footer-links{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.link-title{
+    flex-basis:25%;
+}
+.link-title h4{
+    margin-bottom: 20px;
+}
+/* extra designing that i added */
+.link-title h4:hover {
+    color: blueviolet;
+    border-bottom: 2px solid black;
+    width:60%;
+  
+}
+.link-title small{
+    color: #777777;
+    font-size: 13px;
+}
+.footer-logo{
+    right:0;
+    left:100%;
+    /* position:fixed; */
+    margin-right:20px;
+}
+.right-footer{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer-copyright{
+    flex-basis: 40%;
+}
+.footer-logo{
+    flex-basis: 40%;
+}
+.footer-logo img{
+    width:100px;
+}
+.footer-logo .common-btn{
+    padding: 12px 38px;
+    margin-top: 20px;
+}
+.social-media{
+    position: fixed;
+    top:50%;
+    left: 0;
+    transform: translateY(-50%);
+    z-index: 2;
+}
+.social-media img{
+    width:30px;
+    padding:5px;
+}
+.social-media img:hover {
+    width:40px;
+    transition:.5s;
+}
