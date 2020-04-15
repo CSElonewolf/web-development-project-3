@@ -339,3 +339,100 @@ nav ul li a{
     width:40px;
     transition:.5s;
 }
+@media only screen and (max-width:770px){
+    #header{
+        background-image: none;
+    }
+    .container{
+        margin-right: 60px;
+        margin-left: 60px;
+        }
+        .logo{
+            width: 80px;
+            margin-top: 20px;
+        }
+        .header-text{
+            margin-top: 100px;
+            width: 250px;
+        }
+        h1 {
+            font-size: 23px;
+        }
+        #menuBtn{
+            top: 40px;
+            right: 40px;
+            position: fixed;
+            width:30px;
+            z-index: 2;
+        }
+        .about-left-col, .about-right-col{
+            flex-basis: 100%;
+        }
+        .about-text{
+            margin-right: 30px;
+            max-width:350px;
+            display: inline-block;
+        }
+        #feature{
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+        .feature-col{
+            flex-basis:100%;
+            text-align: center;
+        }
+        .course-left-col{
+            flex-basis: 100%;
+        }
+        .course-text{
+            margin-left: 30px;
+            max-width:350px;
+            display: inline-block;
+        }
+        .course-right-col{
+            flex-basis: 100%;
+        }
+        .offer-left-col{
+            flex-basis: 100%;
+        }
+        .offer-right-col{
+            flex-basis: 100%;
+            text-align: right;
+        }
+        .offer-text{
+            margin-right: 30px;
+            max-width:350px;
+            display: inline-block;
+        }
+        .contact-right-col{
+            flex-basis: 100%;
+        }
+        .contact-left-col{
+            flex-basis: 100%;
+        }
+        .contact-right-col img{
+            margin-top: 30px;
+        }
+        .contact-left-col .common-btn{
+            margin: 10px 0;
+            margin-right : 5px;
+            display:inline-block;
+            padding: 10px;
+            width: 123px
+        }
+        .footer-left-col{
+            flex-basis: 100%;
+        }
+        .link-title{
+            flex-basis:50%;
+        }
+        .footer-copyright{
+            flex-basis: 100%;
+        }
+        .footer-logo{
+            flex-basis: 100%;
+        }
+        .footer-copyright{
+            margin-top: 10px;
+        }
+}
